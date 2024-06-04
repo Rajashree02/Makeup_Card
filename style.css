@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: color-mix(in lch, purple 50%, plum 50%);
+}
+
+h1{
+    font-size: 200%;
+    font-family: Georgia, Arial,Helvetica;
+    margin-left:300px;
+}
+div{
+    background: white;
+}
+.makeup1,.makeup2{
+    display: inline-block;
+    box-shadow: 10px 23px 25px;
+    margin: 50px;
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 170px;
+    position: static;
+    align-self: center;
+    background: white;
+}
+.makeup2{
+    position: fixed;
+}
+.kajal{
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+}
+.lipstick{
+    width: 100%;
+    height: 150px; 
+    border-radius: 10%; 
+}
+.eyeshadows{
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+}
+body{
+    padding: 30px 50px 0px 240px;
+}
+.head{
+    font-family: Georgia, Arial,Helvetica;  
+    padding: 20px 0px;
+    text-align: center;
+
+}
+.makeup3{
+    display: inline-block;
+    box-shadow: 10px 23px 25px;
+    margin: 50px;
+    border-radius: 10%;
+    border: 2px solid black;
+    width: 170px;
+    position: fixed;
+    left: 58%;
+}
+.makeup2:not(:hover) .drop1{
+    display: none;
+}
+.makeup1:hover{
+    cursor: pointer;
+}
+.makeup1:not(:hover) .drop1{
+    display: none;
+}
+.makeup2:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.makeup3:not(:hover) .drop1{
+    display: none;
+}
+.makeup3:hover{
+    cursor: pointer;
+}
+
+.para{
+    text-align: justify;
+    padding: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+}
+.btn{
+    margin: 5% 35%;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 10%;
+    background: white;
+    width: auto;
+}
+.price{
+    font-weight: bolder;
+    margin: 5% 30%;
+    font-size: 150%;
+    background: white;
+}
+.drop1{
+    border-radius: 10%;
+}
+h2,a{
+    background: white;
+    border-radius: 10%;
+}
+.logo{
+    width:30px;
+    height: auto;
+}
